@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name easyElement packages/index.js",
+    "build": "vue-cli-service build --target lib --name easy-element packages/index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "release": "release-it"
   },
+  "main": "dist/easy-element.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "element-ui": "^2.15.6",
@@ -69,5 +70,8 @@
         "infile": "CHANGELOG.md"
       }
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
