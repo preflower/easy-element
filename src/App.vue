@@ -1,0 +1,152 @@
+<template>
+  <div id="app">
+    <i-table
+      :data="table.list"
+      :columns="table.columns"
+      stripe
+      @cell-mouse-enter="test"
+    >
+      <template v-slot:data3="{row}">
+        {{ row.data3 }}
+      </template>
+    </i-table>
+    <i-form
+      form-ref="form"
+      :fields="fields"
+      :model="formModel"
+      inline
+    >
+      <template v-slot:slott>
+        <el-checkbox v-model="formModel.checkbox">
+          多选
+        </el-checkbox>
+      </template>
+      <template v-slot:reset>
+        <el-button @click="onReset">
+          reset
+        </el-button>
+      </template>
+    </i-form>
+  </div>
+</template>
+
+<script>
+import IForm from '../packages/form'
+import ITable from '../packages/table'
+
+export default {
+  name: 'App',
+  components: {
+    IForm,
+    ITable
+  },
+  data () {
+    return {
+      vif: true,
+      table: {
+        list: [
+          {
+            data1: '数据1',
+            data2: '数据2',
+            data3: '数据3',
+            data4: '数据4',
+            data5: '数据5'
+          }, {
+            data1: '数据1',
+            data2: '数据2',
+            data3: '数据3',
+            data4: '数据4',
+            data5: '数据5'
+          }
+        ],
+        columns: [
+          {
+            prop: 'data1',
+            width: '50px',
+            label: '默认配置'
+          },
+          {
+            label: 'Render函数',
+            render: ({ row }) => {
+              return <span>{ row.data2 }</span>
+            }
+          },
+          {
+            label: 'Slot调用',
+            slot: 'data3'
+          },
+          {
+            label: '指令配合',
+            prop: 'data4',
+            directives: [
+              {
+                name: 'elm',
+                value: true
+              }
+            ]
+          },
+          {
+            label: 'vif切换',
+            vif: () => this.vif,
+            render: ({ row }) => {
+              return <el-button onClick={() => { this.vif = false }}>close</el-button>
+            }
+          }
+        ]
+      },
+      formModel: {
+        input: '123',
+        radio: false,
+        checkbox: '321'
+      },
+      fields: [
+        {
+          label: '配置生成',
+          prop: 'input',
+          error: '错误信息',
+          'label-width': '50px',
+          component: {
+            name: 'el-input',
+            size: 'mini',
+            maxlength: '10'
+          }
+        },
+        {
+          label: 'Render生成',
+          prop: 'radio',
+          render: () => {
+            return <el-radio vModel={this.formModel.radio}>单选</el-radio>
+          }
+        },
+        {
+          label: 'Slot生成',
+          prop: 'checkbox',
+          slot: 'slott'
+        },
+        {
+          slot: 'reset'
+        }
+      ]
+    }
+  },
+  methods: {
+    onReset () {
+      this.$refs.form.resetFields()
+    },
+    test (row, column, cell, event) {
+      console.log(row, column, cell, event)
+    }
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
