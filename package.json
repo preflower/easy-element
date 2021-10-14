@@ -73,5 +73,8 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "files": [
+    "dist/easy-element.common.js"
+  ]
 }
