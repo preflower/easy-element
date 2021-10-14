@@ -31,7 +31,10 @@ export default {
     const tableProps = {
       ref: 'i-table',
       class: 'i-table',
-      props: this.$attrs,
+      props: Object.assign({},
+        (this.$EASYELEMENT?.table || {}),
+        this.$attrs
+      ),
       on: this.$listeners
     }
     const tableColumns = []

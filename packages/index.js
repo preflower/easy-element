@@ -6,10 +6,15 @@ const components = [
   Table
 ]
 
-const install = function (Vue) {
+const install = function (Vue, options = {}) {
   components.forEach(component => {
     Vue.component(component.name, component)
   })
+
+  Vue.prototype.$EASYELEMENT = {
+    table: options.table || {},
+    form: options.form || {}
+  }
 }
 
 if (typeof window !== 'undefined' && window.Vue) {

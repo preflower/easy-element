@@ -14,7 +14,6 @@
       form-ref="form"
       :fields="fields"
       :model="formModel"
-      inline
     >
       <template v-slot:slott>
         <el-checkbox v-model="formModel.checkbox">
@@ -31,15 +30,8 @@
 </template>
 
 <script>
-import IForm from '../packages/form'
-import ITable from '../packages/table'
-
 export default {
   name: 'App',
-  components: {
-    IForm,
-    ITable
-  },
   data () {
     return {
       vif: true,

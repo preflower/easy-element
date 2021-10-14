@@ -40,7 +40,10 @@ export default {
 
     const formData = {
       ref: 'i-form',
-      props: this.$attrs,
+      props: Object.assign({},
+        (this.$EASYELEMENT?.form || {}),
+        this.$attrs
+      ),
       on: this.$listeners
     }
     const formItems = []
