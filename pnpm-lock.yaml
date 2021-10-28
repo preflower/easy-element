@@ -10,7 +10,7 @@ specifiers:
   '@vue/cli-plugin-eslint': ~4.5.14
   '@vue/cli-plugin-unit-jest': ~4.5.14
   '@vue/cli-service': ~4.5.14
-  '@vue/eslint-config-standard': ^5.1.2
+  '@vue/eslint-config-standard': ^6.1.0
   '@vue/test-utils': ^1.2.2
   core-js: ^3.6.5
   element-ui: ^2.15.6
@@ -40,7 +40,7 @@ devDependencies:
   '@vue/cli-plugin-eslint': 4.5.14_41c3142a4da4107702f3978ecf4bc745
   '@vue/cli-plugin-unit-jest': 4.5.14_98a65ab9dbc9c2d9f801bfb8cc7b1396
   '@vue/cli-service': 4.5.14_vue-template-compiler@2.6.14
-  '@vue/eslint-config-standard': 5.1.2_214d96a74751a820eb9220d9315a99e7
+  '@vue/eslint-config-standard': 6.1.0_636060ada220412804b0acffca4c076c
   '@vue/test-utils': 1.2.2_9065e7474e033a8e4b95615fc8e6c36c
   eslint: 6.8.0
   eslint-plugin-import: 2.25.2_eslint@6.8.0
@@ -2348,29 +2348,27 @@ packages:
       prettier: 1.19.1
     dev: true
 
-  /@vue/eslint-config-standard/5.1.2_214d96a74751a820eb9220d9315a99e7:
-    resolution: {integrity: sha512-FTz0k77dIrj9r3xskt9jsZyL/YprrLiPRf4m3k7G6dZ5PKuD6OPqYrHR9eduUmHDFpTlRgFpTVQrq+1el9k3QQ==}
+  /@vue/eslint-config-standard/6.1.0_636060ada220412804b0acffca4c076c:
+    resolution: {integrity: sha512-9+hrEyflDzsGdlBDl9jPV5DIYUx1TOU5OSQqRDKCrNumrxRj5HRWKuk+ocXWnha6uoNRtLC24mY7d/MwqvBCNw==}
     peerDependencies:
-      '@vue/cli-service': ^3.0.0 || ^4.0.0-0
-      eslint: '>=6.2.2'
-      eslint-plugin-import: '>= 2.18.0'
-      eslint-plugin-node: '>= 9.1.0'
-      eslint-plugin-promise: '>= 4.2.1'
-      eslint-plugin-standard: '>= 4.0.0'
-      eslint-plugin-vue: '>= 6.1.2'
+      '@vue/cli-service': ^3.0.0 || ^4.0.0 || ^5.0.0-0
+      eslint: ^7.12.1
+      eslint-plugin-import: ^2.22.1
+      eslint-plugin-node: ^11.1.0
+      eslint-plugin-promise: ^4.2.1 || ^5.0.0
+      eslint-plugin-vue: ^7.0.0
     peerDependenciesMeta:
       '@vue/cli-service':
         optional: true
     dependencies:
       '@vue/cli-service': 4.5.14_vue-template-compiler@2.6.14
       eslint: 6.8.0
-      eslint-config-standard: 14.1.1_84db1c864c794ebfaa2b473dd9a4605c
+      eslint-config-standard: 16.0.3_e100d1009d453cd047339115d9d6b101
       eslint-import-resolver-node: 0.3.6
-      eslint-import-resolver-webpack: 0.12.2_eslint-plugin-import@2.25.2
+      eslint-import-resolver-webpack: 0.13.2_eslint-plugin-import@2.25.2
       eslint-plugin-import: 2.25.2_eslint@6.8.0
       eslint-plugin-node: 11.1.0_eslint@6.8.0
       eslint-plugin-promise: 4.3.1
-      eslint-plugin-standard: 4.1.0_eslint@6.8.0
       eslint-plugin-vue: 6.2.2_eslint@6.8.0
     transitivePeerDependencies:
       - webpack
@@ -5198,20 +5196,18 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-standard/14.1.1_84db1c864c794ebfaa2b473dd9a4605c:
-    resolution: {integrity: sha512-Z9B+VR+JIXRxz21udPTL9HpFMyoMUEeX1G251EQ6e05WD9aPVtVBn09XUmZ259wCMlCDmYDSZG62Hhm+ZTJcUg==}
+  /eslint-config-standard/16.0.3_e100d1009d453cd047339115d9d6b101:
+    resolution: {integrity: sha512-x4fmJL5hGqNJKGHSjnLdgA6U6h1YW/G2dW9fA+cyVur4SK6lyue8+UgNKWlZtUDTXvgKDD/Oa3GQjmB5kjtVvg==}
     peerDependencies:
-      eslint: '>=6.2.2'
-      eslint-plugin-import: '>=2.18.0'
-      eslint-plugin-node: '>=9.1.0'
-      eslint-plugin-promise: '>=4.2.1'
-      eslint-plugin-standard: '>=4.0.0'
+      eslint: ^7.12.1
+      eslint-plugin-import: ^2.22.1
+      eslint-plugin-node: ^11.1.0
+      eslint-plugin-promise: ^4.2.1 || ^5.0.0
     dependencies:
       eslint: 6.8.0
       eslint-plugin-import: 2.25.2_eslint@6.8.0
       eslint-plugin-node: 11.1.0_eslint@6.8.0
       eslint-plugin-promise: 4.3.1
-      eslint-plugin-standard: 4.1.0_eslint@6.8.0
     dev: true
 
   /eslint-import-resolver-node/0.3.6:
@@ -5221,21 +5217,23 @@ packages:
       resolve: 1.20.0
     dev: true
 
-  /eslint-import-resolver-webpack/0.12.2_eslint-plugin-import@2.25.2:
-    resolution: {integrity: sha512-7Jnm4YAoNNkvqPaZkKdIHsKGmv8/uNnYC5QsXkiSodvX4XEEfH2AKOna98FK52fCDXm3q4HzuX+7pRMKkJ64EQ==}
+  /eslint-import-resolver-webpack/0.13.2_eslint-plugin-import@2.25.2:
+    resolution: {integrity: sha512-XodIPyg1OgE2h5BDErz3WJoK7lawxKTJNhgPNafRST6csC/MZC+L5P6kKqsZGRInpbgc02s/WZMrb4uGJzcuRg==}
+    engines: {node: '>= 6'}
     peerDependencies:
       eslint-plugin-import: '>=1.4.0'
       webpack: '>=1.11.0'
     dependencies:
       array-find: 1.0.0
-      debug: 2.6.9
+      debug: 3.2.7
       enhanced-resolve: 0.9.1
       eslint-plugin-import: 2.25.2_eslint@6.8.0
       find-root: 1.1.0
       has: 1.0.3
       interpret: 1.4.0
+      is-core-module: 2.7.0
+      is-regex: 1.1.4
       lodash: 4.17.21
-      node-libs-browser: 2.2.1
       resolve: 1.20.0
       semver: 5.7.1
     dev: true
