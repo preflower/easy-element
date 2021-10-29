@@ -24,4 +24,7 @@ jobs:
         node-version: '14'
         cache: 'pnpm'
     - run: pnpm install
+    - name: Lint
+    - run: pnpm lint
+    - name: Unit test
     - run: pnpm test:unit
