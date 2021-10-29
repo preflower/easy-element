@@ -12,7 +12,7 @@ specifiers:
   '@vue/cli-service': ~4.5.15
   '@vue/eslint-config-standard': ^6.1.0
   '@vue/test-utils': ^1.2.2
-  core-js: ^3.19.0
+  core-js: ^3.6.5
   element-ui: ^2.15.6
   eslint: ^8.1.0
   eslint-plugin-import: ^2.25.2
@@ -26,7 +26,7 @@ specifiers:
   vue-template-compiler: ^2.6.14
 
 dependencies:
-  core-js: 3.19.0
+  core-js: 3.18.1
   element-ui: 2.15.6_vue@2.6.14
   vue: 2.6.14
 
@@ -2010,7 +2010,7 @@ packages:
       '@vue/babel-plugin-jsx': 1.0.7_@babel+core@7.15.5
       '@vue/babel-preset-jsx': 1.2.4_@babel+core@7.15.5
       babel-plugin-dynamic-import-node: 2.3.3
-      core-js: 3.19.0
+      core-js: 3.18.1
       core-js-compat: 3.18.1
       semver: 6.3.0
       vue: 2.6.14
@@ -4306,8 +4306,8 @@ packages:
     deprecated: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
     requiresBuild: true
 
-  /core-js/3.19.0:
-    resolution: {integrity: sha512-L1TpFRWXZ76vH1yLM+z6KssLZrP8Z6GxxW4auoCj+XiViOzNPJCAuTIkn03BGdFe6Z5clX5t64wRIRypsZQrUg==}
+  /core-js/3.18.1:
+    resolution: {integrity: sha512-vJlUi/7YdlCZeL6fXvWNaLUPh/id12WXj3MbkMw5uOyF0PfWPBNOCNbs53YqgrvtujLNlt9JQpruyIKkUZ+PKA==}
     requiresBuild: true
 
   /core-util-is/1.0.2:
