@@ -1,6 +1,10 @@
 {
   "packageRules": [
     {
+      "matchPackagePatterns": ["^eslint", "^@typescript-eslint"],
+      "groupName": "eslint related"
+    },
+    {
       "matchPackagePatterns": ["*"],
       "rangeStrategy": "bump"
     },
@@ -9,7 +13,5 @@
       "automerge": true
     }
   ],
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base"]
 }
