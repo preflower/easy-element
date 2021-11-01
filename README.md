@@ -1,29 +1,26 @@
-# easy-element
+# Easy Element
+`easy-element` 是基于 `Element-UI` 再封装的 JSON 化组件库，用来解决 `Element-UI` 部分组件经常性的重复劳动问题
 
-## Project setup
-```
-pnpm install
-```
+## 开始使用
 
-### Compiles and hot-reloads for development
-```
-pnpm run serve
-```
+### 安装
 
-### Compiles and minifies for production
-```
-pnpm run build
+```bash
+npm i @preflower/element element-ui -S
 ```
 
-### Run your unit tests
+### 完整引入
 ```
-pnpm run test:unit
+import Vue from 'vue'
+import EasyElement from '@preflower/element'
+
+Vue.use(EasyElement)
 ```
 
-### Lints and fixes files
+### 按需引入
 ```
-pnpm run lint
-```
+import Vue from 'vue'
+import { Table } from '@preflower/element'
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue.component('i-table', Table)
+```

@@ -11,6 +11,8 @@
     "release": "release-it"
   },
   "main": "dist/easy-element.common.js",
+  "unpkg": "dist/easy-element.umd.min.js",
+  "jsdelivr": "dist/easy-element.umd.min.js",
   "dependencies": {
     "core-js": "^3.19.0",
     "element-ui": "^2.15.6",
@@ -79,6 +81,7 @@
     "access": "public"
   },
   "files": [
-    "dist/easy-element.common.js"
+    "dist/easy-element.common.js",
+    "dist/easy-element.umd.min.js"
   ]
 }
