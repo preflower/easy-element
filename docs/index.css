@@ -1,0 +1,57 @@
+:root {
+  --theme-background: #fff;
+}
+
+.markdown-section {
+  max-width: 90%;
+}
+
+/* vuep */
+.vuep {
+  height: auto;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+
+.vuep:hover {
+  box-shadow: 0 0 10px 0 rgba(232, 237, 250, .6),
+  0 2px 4px 0 rgba(232, 237, 250, .6);
+}
+
+.vuep-editor,
+.vuep-preview {
+  position: relative;
+  width: 50%;
+  height: 432px;
+}
+
+.vuep-editor {
+  margin-right: 0;
+  border-right: 1px dashed #ebebeb;
+}
+
+.vuep-preview {
+  border: 0;
+  padding: 15px 25px;
+}
+
+/* search */
+.search {
+  position: relative;
+}
+
+.results-panel {
+  position: absolute;
+  right: 6px;
+  left: 6px;
+  margin-top: 12px;
+  padding: 0 6px;
+  overflow-y: scroll;
+  max-height: 300px;
+  border-radius: 4px;
+  background-color: var(--theme-background);
+}
+
+.results-panel.show {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
