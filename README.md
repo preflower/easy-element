@@ -1,5 +1,5 @@
 # Easy Element
-`easy-element` 是基于 `Element-UI` 再封装的 JSON 化组件库，用来解决 `Element-UI` 部分组件经常性的重复劳动问题
+`easy-element` 是基于 `Element-UI` 再封装的 JSON 化组件库，用来解决 `Element-UI` 部分组件经常性的重复劳动问题
 
 ## 开始使用
 

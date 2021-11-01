@@ -58,7 +58,7 @@
   "bugs": {
     "url": "https://github.com/preflower/easy-element/issues"
   },
-  "homepage": "https://github.com/preflower/easy-element#readme",
+  "homepage": "https://preflower.github.io/easy-element",
   "release-it": {
     "git": {
       "commitMessage": "chore: release ${version}",
