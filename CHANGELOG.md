@@ -1,3 +1,15 @@
+## [0.2.1](https://github.com/preflower/easy-element/compare/v0.2.0...v0.2.1) (2021-11-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency core-js to ^3.19.0 ([76ca509](https://github.com/preflower/easy-element/commit/76ca509a141050f5b1b3399173405cf7dbdb7627))
+
+
+### Reverts
+
+* Revert "chore(deps): update dependency eslint to v8" ([47718c4](https://github.com/preflower/easy-element/commit/47718c41ba5c314095cf5d48c1b2a17b41ec9930))
+
 # [0.2.0](https://github.com/preflower/easy-element/compare/v0.1.2...v0.2.0) (2021-10-14)
 
 
