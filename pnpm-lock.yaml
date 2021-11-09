@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@babel/eslint-parser': ^7.16.0
+  '@babel/eslint-parser': ^7.16.3
   '@commitlint/cli': ^14.1.0
   '@commitlint/config-conventional': ^14.1.0
   '@release-it/conventional-changelog': ^3.3.0
@@ -33,7 +33,7 @@ dependencies:
   vue: 2.6.14
 
 devDependencies:
-  '@babel/eslint-parser': 7.16.0_eslint@7.32.0
+  '@babel/eslint-parser': 7.16.3_eslint@7.32.0
   '@commitlint/cli': 14.1.0
   '@commitlint/config-conventional': 14.1.0
   '@release-it/conventional-changelog': 3.3.0_release-it@14.11.6
@@ -99,8 +99,8 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/eslint-parser/7.16.0_eslint@7.32.0:
-    resolution: {integrity: sha512-c+AsYOHjI+FgCa+ifLd8sDXp4U4mjkfFgL9NdQWhuA731kAUJs0WdJIXET4A14EJAR9Jv9FFF/MzPWJfV9Oirw==}
+  /@babel/eslint-parser/7.16.3_eslint@7.32.0:
+    resolution: {integrity: sha512-iB4ElZT0jAt7PKVaeVulOECdGe6UnmA/O0P9jlF5g5GBOwDVbna8AXhHRu4s27xQf6OkveyA8iTDv1jHdDejgQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': '>=7.11.0'
