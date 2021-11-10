@@ -49,7 +49,7 @@ describe('IForm', () => {
       expect(wrapper.find('.el-form').exists()).toBe(true)
     })
 
-    it('el-form-item is conrrect', () => {
+    it('el-form-item is correct', () => {
       const length = wrapper.findAll('.el-form-item').length
       expect(length).toBe(3)
     })
@@ -199,9 +199,20 @@ describe('IForm', () => {
     const vm = wrapper.vm
 
     it('v-model auto inject', async () => {
+      const el = vm.$el.querySelector('input')
+      const simulateEvent = (text, event) => {
+        el.value = text
+        el.dispatchEvent(new Event(event))
+      }
+
       vm.setValue('input', 'test')
       await nextTick()
-      expect(vm.$el.querySelector('input').value).toBe('test')
+      expect(el.value).toBe('test')
+
+      simulateEvent('update', 'input')
+
+      await nextTick()
+      expect(vm.$data.model.input).toBe('update')
     })
 
     it('attributes is work', () => {
@@ -216,6 +227,19 @@ describe('IForm', () => {
       const input = wrapper.find('input')
       await input.trigger('focus')
       expect(handleFocus).toBeCalled()
+    })
+  })
+
+  describe('rendering is correct if fields not inject', () => {
+    const wrapper = mount({
+      components: {
+        IForm
+      },
+      template: '<i-form />'
+    })
+
+    it('el-form is rendered', () => {
+      expect(wrapper.find('.el-form').exists()).toBe(true)
     })
   })
 })

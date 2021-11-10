@@ -65,7 +65,7 @@ describe('ITable', () => {
       expect(wrapper.find('table').exists()).toBe(true)
     })
 
-    it('el-table-column is conrrect', () => {
+    it('el-table-column is correct', () => {
       const headers = wrapper.findAll('thead th').wrappers.map((node) => node.text())
       expect(headers).toEqual(['Default', 'Render', 'Slot'])
 
@@ -200,6 +200,22 @@ describe('ITable', () => {
       await nextTick()
       expect(wrapper.findAll('thead th').wrappers.map((node) => node.text()))
         .not.toEqual(expect.arrayContaining(['vif']))
+    })
+  })
+
+  describe('rendering is correct if columns not inject', () => {
+    const wrapper = mount({
+      components: {
+        ITable
+      },
+      template: `
+      <i-table />
+      `
+    })
+
+    it('el-table is rendered', async () => {
+      expect(wrapper.find('.el-table').exists()).toBe(true)
+      expect(wrapper.find('table').exists()).toBe(true)
     })
   })
 })

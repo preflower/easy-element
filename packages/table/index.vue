@@ -46,6 +46,7 @@ export default {
         }
         if (render) columnProps.scopedSlots = { default: render.bind(vm) }
         else if (this.$scopedSlots[slot]) columnProps.scopedSlots = { default: this.$scopedSlots[slot] }
+        // use for backstoped
         else if (this.$slots[slot]) columnProps.scopedSlots = { default: () => this.$slots[slot] }
         if (directives) columnProps.directives = directives
         pre.push(<el-table-column {...columnProps} />)
