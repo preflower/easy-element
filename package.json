@@ -8,7 +8,7 @@
     "build": "vue-cli-service build --target lib --name easy-element packages/index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "release": "release-it"
+    "release": "pnpm build && release-it"
   },
   "main": "dist/easy-element.common.js",
   "unpkg": "dist/easy-element.umd.min.js",
