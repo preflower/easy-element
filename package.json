@@ -1,6 +1,6 @@
 {
   "name": "@preflower/element",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",

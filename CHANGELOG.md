@@ -1,3 +1,15 @@
+# [0.3.0](https://github.com/preflower/easy-element/compare/v0.2.1...v0.3.0) (2021-11-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency core-js to ^3.19.1 ([789be7b](https://github.com/preflower/easy-element/commit/789be7b86a6d37b9a06c6b710a3dc9eac401d9f3))
+
+
+### Features
+
+* add `i-select` component ([c3fa209](https://github.com/preflower/easy-element/commit/c3fa209bbada34d5602b51ed6a82bbc2d8bab15a))
+
 ## [0.2.1](https://github.com/preflower/easy-element/compare/v0.2.0...v0.2.1) (2021-11-01)
 
 
