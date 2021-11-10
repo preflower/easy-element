@@ -26,6 +26,12 @@
         </el-button>
       </template>
     </i-form>
+    <i-select
+      :data="select.data"
+      :props="{ label: 'l', value: 'v' }"
+      size="large"
+      :disabled-method="disabled"
+    />
   </div>
 </template>
 
@@ -118,7 +124,23 @@ export default {
         {
           slot: 'reset'
         }
-      ]
+      ],
+      select: {
+        data: [
+          {
+            l: '测试1',
+            v: 'test1'
+          }, {
+            l: '测试2',
+            v: 'test2'
+          }
+        ]
+      }
+    }
+  },
+  watch: {
+    'formModel.input' (val) {
+      console.log('change', val)
     }
   },
   methods: {
@@ -127,6 +149,9 @@ export default {
     },
     test (row, column, cell, event) {
       console.log(row, column, cell, event)
+    },
+    disabled (item) {
+      return item.v === 'test2'
     }
   }
 }

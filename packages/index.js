@@ -1,9 +1,11 @@
 import Form from '../packages/form'
 import Table from '../packages/table'
+import Select from '../packages/select'
 
 const components = [
   Form,
-  Table
+  Table,
+  Select
 ]
 
 const install = function (Vue, options = {}) {
@@ -13,7 +15,8 @@ const install = function (Vue, options = {}) {
 
   Vue.prototype.$EASYELEMENT = {
     table: options.table || {},
-    form: options.form || {}
+    form: options.form || {},
+    select: options.select || {}
   }
 }
 
@@ -24,5 +27,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
   install,
   Form,
-  Table
+  Table,
+  Select
 }
