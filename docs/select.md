@@ -1,4 +1,4 @@
-# Selct 选择器
+# Select 选择器
 
 ## 示例
 <vuep template="#table-base" :options="{ theme: 'vue', lineNumbers: false }"></vuep>
