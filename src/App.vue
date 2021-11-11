@@ -28,8 +28,16 @@
     </i-form>
     <i-select
       :data="select.data"
-      :props="{ label: 'l', value: 'v' }"
+      :option="{ label: 'l', value: 'v' }"
       size="large"
+      :disabled-method="disabled"
+    />
+    <i-radio
+      v-model="selected"
+      :data="data"
+      size="large"
+      button
+      :option="{label: 'l', value: 'v'}"
       :disabled-method="disabled"
     />
   </div>
@@ -135,7 +143,17 @@ export default {
             v: 'test2'
           }
         ]
-      }
+      },
+      selected: null,
+      data: [
+        {
+          l: '测试1',
+          v: 'test1'
+        }, {
+          l: '测试2',
+          v: 'test2'
+        }
+      ]
     }
   },
   watch: {
@@ -144,14 +162,14 @@ export default {
     }
   },
   methods: {
+    disabled (item) {
+      return item.v === 'test2'
+    },
     onReset () {
       this.$refs.form.resetFields()
     },
     test (row, column, cell, event) {
       console.log(row, column, cell, event)
-    },
-    disabled (item) {
-      return item.v === 'test2'
     }
   }
 }

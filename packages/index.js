@@ -1,11 +1,13 @@
 import Form from '../packages/form'
 import Table from '../packages/table'
 import Select from '../packages/select'
+import Radio from '../packages/radio'
 
 const components = [
   Form,
   Table,
-  Select
+  Select,
+  Radio
 ]
 
 const install = function (Vue, options = {}) {
@@ -16,7 +18,8 @@ const install = function (Vue, options = {}) {
   Vue.prototype.$EASYELEMENT = {
     table: options.table || {},
     form: options.form || {},
-    select: options.select || {}
+    select: options.select || {},
+    radio: options.radio || {}
   }
 }
 
