@@ -46,7 +46,7 @@ module.exports = {
 | 参数 | 说明 | 类型 | 可选值	| 默认值 |
 | --- | --- | --- | --- | --- |
 | data | 需要渲染的`el-option`字段 | Array | - | []
-| option | 获取data内符合option的值，用于渲染`el-option` | Object | - | { label: 'label', value: 'value', disabled: 'disabled' }
+| option | 获取data内符合option的值，用于渲染`el-radio/el-radio-button` | Object | - | { label: 'label', value: 'value', disabled: 'disabled' }
 | border | 即[Element-UI Radio border属性](https://element.eleme.cn/#/zh-CN/component/radio#radio-attributes) | Boolean | - | false
 | button | 区分渲染`el-radio`还是`el-radio-button` | Boolean | - | false
 
