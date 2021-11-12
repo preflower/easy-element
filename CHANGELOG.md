@@ -1,3 +1,11 @@
+# [0.4.0](https://github.com/preflower/easy-element/compare/v0.3.0...v0.4.0) (2021-11-12)
+
+
+### Features
+
+* add `i-checkbox` component ([bc6cdb8](https://github.com/preflower/easy-element/commit/bc6cdb825c98288702b572cff65cc74a1a1cba76))
+* add `i-radio` component ([5c3f984](https://github.com/preflower/easy-element/commit/5c3f9843ad60aadb14f7e4f4f6ec91da9b649e3a))
+
 # [0.3.0](https://github.com/preflower/easy-element/compare/v0.2.1...v0.3.0) (2021-11-10)
 
 
