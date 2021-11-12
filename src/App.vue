@@ -32,13 +32,12 @@
       size="large"
       :disabled-method="disabled"
     />
-    <i-radio
-      v-model="selected"
+    <i-checkbox
+      v-model="selected2"
       :data="data"
       size="large"
-      button
-      :option="{label: 'l', value: 'v'}"
       :disabled-method="disabled"
+      border
     />
   </div>
 </template>
@@ -147,13 +146,15 @@ export default {
       selected: null,
       data: [
         {
-          l: '测试1',
-          v: 'test1'
+          label: '测试1',
+          value: 'test1'
         }, {
-          l: '测试2',
-          v: 'test2'
+          label: '测试2',
+          value: 'test2',
+          disabled: true
         }
-      ]
+      ],
+      selected2: []
     }
   },
   watch: {

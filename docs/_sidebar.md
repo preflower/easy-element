@@ -7,3 +7,4 @@
   * [表单](form.md)
   * [选择器](select.md)
   * [单选框](radio.md)
+  * [多选框](checkbox.md)
