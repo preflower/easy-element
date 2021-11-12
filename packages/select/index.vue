@@ -16,7 +16,6 @@
 
 <script>
 /**
- * <i-select></i-select>
  * Attributes:
  *  data - 显示的数据
  *  option - 数据的属性名，默认值: { label, value, disabled }
