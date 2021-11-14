@@ -23,7 +23,7 @@ specifiers:
   eslint-plugin-vue: ^6.2.2
   husky: ^7.0.4
   lint-staged: ^11.2.6
-  release-it: ^14.11.6
+  release-it: ^14.11.7
   vue: ^2.6.14
   vue-template-compiler: ^2.6.14
 
@@ -36,7 +36,7 @@ devDependencies:
   '@babel/eslint-parser': 7.16.3_eslint@7.32.0
   '@commitlint/cli': 14.1.0
   '@commitlint/config-conventional': 14.1.0
-  '@release-it/conventional-changelog': 3.3.0_release-it@14.11.6
+  '@release-it/conventional-changelog': 3.3.0_release-it@14.11.7
   '@vue/babel-helper-vue-jsx-merge-props': 1.2.1
   '@vue/babel-preset-jsx': 1.2.4
   '@vue/cli-plugin-babel': 4.5.15_4c1e5ebbf041a85328f9984e4ede8f8a
@@ -53,7 +53,7 @@ devDependencies:
   eslint-plugin-vue: 6.2.2_eslint@7.32.0
   husky: 7.0.4
   lint-staged: 11.2.6
-  release-it: 14.11.6
+  release-it: 14.11.7
   vue-template-compiler: 2.6.14
 
 packages:
@@ -1779,7 +1779,7 @@ packages:
       '@octokit/openapi-types': 10.6.1
     dev: true
 
-  /@release-it/conventional-changelog/3.3.0_release-it@14.11.6:
+  /@release-it/conventional-changelog/3.3.0_release-it@14.11.7:
     resolution: {integrity: sha512-pchCHf+wNpn15oj2hau4gisFKQat/01JuTzAwlGsQE83ZUBknU4dRlPA3xf5F5f3K70VVTQ3lx4/lgQvR+zxww==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -1789,7 +1789,7 @@ packages:
       conventional-changelog: 3.1.24
       conventional-recommended-bump: 6.1.0
       prepend-file: 2.0.0
-      release-it: 14.11.6
+      release-it: 14.11.7
     dev: true
 
   /@sindresorhus/is/0.14.0:
@@ -10631,8 +10631,8 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /release-it/14.11.6:
-    resolution: {integrity: sha512-6BNcuzFZHThBUBJ/xYw/bxZ+58CAwrwf1zgmjq2Ibl3nlDZbjphHG6iqxkJu7mZ8TIWs6NjloEAhqpjeXoN//Q==}
+  /release-it/14.11.7:
+    resolution: {integrity: sha512-m4p9+x6AEQPczc96Jyg6dGFeovpJVgRCtA1lxeIgTmQVt9dutYPkkjZeJngZgUJ17/Lb1bx6ZzW2qsKmopKnbQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
