@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: pnpm/action-setup@3c2fe8c59284aae169107529dce6c78999f48956
+    - uses: pnpm/action-setup@15569a497d6aff479ba1c47c859888e22a431052
       with:
         version: 6.10.0
     - uses: actions/setup-node@v2
