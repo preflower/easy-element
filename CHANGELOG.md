@@ -1,3 +1,10 @@
+## [0.4.1](https://github.com/preflower/easy-element/compare/v0.4.0...v0.4.1) (2021-12-31)
+
+
+### Bug Fixes
+
+* installation fails in a non-pnpm environment ([2211f05](https://github.com/preflower/easy-element/commit/2211f05b6ccd2c7e4c3a1aadaff8b3447b67c599))
+
 # [0.4.0](https://github.com/preflower/easy-element/compare/v0.3.0...v0.4.0) (2021-11-12)
 
 
