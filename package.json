@@ -2,7 +2,6 @@
   "name": "@preflower/element",
   "version": "0.4.0",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name easy-element packages/index.js",
