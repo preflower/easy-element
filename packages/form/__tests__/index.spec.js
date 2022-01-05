@@ -29,6 +29,13 @@ describe('IForm', () => {
               }
             },
             {
+              label: 'Vif',
+              vif: false,
+              component: {
+                name: 'el-input'
+              }
+            },
+            {
               label: 'Render',
               prop: 'radio',
               render: () => {

@@ -48,7 +48,8 @@ export default {
     }
     const formItems = []
     fields.forEach((item, index) => {
-      const { component, render, slot, prop: formItemProp, ...props } = item
+      const { component, render, slot, vif = true, prop: formItemProp, ...props } = item
+      if (!vif) return
       const formItemData = {
         props: {
           prop: formItemProp,

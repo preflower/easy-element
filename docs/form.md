@@ -64,9 +64,11 @@ module.exports = {
 | component | `el-form-item`内需要渲染的组件 | object | - | -
 | render | 渲染函数，用于满足`el-form-item`内多组件渲染需求 | function | - | -
 | slot | `v-slot`语法糖
+| vif | 判断是否渲染`el-form-item` | Boolean | true/false | true
 
 > TIPS: `component`, `render`, `slot`三者互斥，优先级
 `component > render > slot`
+> TIPS: `component`无法渲染局部组件，因为`component`的实现决定的
 
 ## Component Attributes
 支持渲染组件本身的所有属性
