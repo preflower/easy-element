@@ -1,3 +1,16 @@
+## [0.4.2](https://github.com/preflower/easy-element/compare/v0.4.0...v0.4.2) (2022-01-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency core-js to ^3.19.2 ([2fbc936](https://github.com/preflower/easy-element/commit/2fbc9364e50dab66f27944b19d3b79b5ce951e4a))
+* **deps:** update dependency core-js to ^3.19.3 ([f7e7321](https://github.com/preflower/easy-element/commit/f7e732113fa9680d9123d8e6a7a081a9e1ae9946))
+* **deps:** update dependency core-js to ^3.20.0 ([95f1333](https://github.com/preflower/easy-element/commit/95f1333831c05b9be819de241b6df9eeb8710278))
+* **deps:** update dependency core-js to ^3.20.1 ([c0e73c2](https://github.com/preflower/easy-element/commit/c0e73c21f175a473e2dc71f86c022828fc6d34ff))
+* **deps:** update dependency core-js to ^3.20.2 ([8e1db88](https://github.com/preflower/easy-element/commit/8e1db8832d65ebb74ef852809aa1b7e9ea0d478c))
+* **form:** component not support inner text error ([65a5041](https://github.com/preflower/easy-element/commit/65a504123f2ef9924c4c3fd0fbc627f3b9aa65cd))
+* installation fails in a non-pnpm environment ([9a8b2a5](https://github.com/preflower/easy-element/commit/9a8b2a5171c1697c7ff1ea422d6d7e27bd88892a))
+
 ## [0.4.1](https://github.com/preflower/easy-element/compare/v0.4.0...v0.4.1) (2021-12-31)
 
 

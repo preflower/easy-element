@@ -1,6 +1,6 @@
 {
   "name": "@preflower/element",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "scripts": {
     "prepare": "husky install",
     "serve": "vue-cli-service serve",
