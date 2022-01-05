@@ -13,5 +13,9 @@
       "automerge": true
     }
   ],
-  "extends": ["config:base"]
+  "extends": ["config:base"],
+  "ignoreTests": true,
+  "schedule": [
+    "before 3am on Monday"
+  ]
 }
