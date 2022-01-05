@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/preflower/easy-element/compare/v0.4.2...v0.5.0) (2022-01-05)
+
+
+### Features
+
+* **form:** field add `vif` property ([4cf78d0](https://github.com/preflower/easy-element/commit/4cf78d02cf993ef978069d9828ba626c3cf443f8))
+
 ## [0.4.2](https://github.com/preflower/easy-element/compare/v0.4.0...v0.4.2) (2022-01-05)
 
 
