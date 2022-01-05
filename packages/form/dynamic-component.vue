@@ -5,7 +5,9 @@
     v-bind="$attrs"
     @input="val => { $emit('input', val) }"
     v-on="$listeners"
-  />
+  >
+    {{ children }}
+  </component>
 </template>
 
 <script>
@@ -18,8 +20,12 @@ export default {
       type: String,
       default: 'el-input'
     },
+    children: {
+      type: String,
+      default: null
+    },
     value: {
-      type: [String, Array, Object, Boolean],
+      type: [String, Array, Object, Boolean, Number],
       default: undefined
     }
   }
