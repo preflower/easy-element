@@ -23,7 +23,7 @@ specifiers:
   eslint-plugin-vue: ^6.2.2
   husky: ^7.0.4
   lint-staged: ^11.2.6
-  release-it: ^14.12.1
+  release-it: ^14.12.3
   vue: ^2.6.14
   vue-template-compiler: ^2.6.14
 
@@ -36,7 +36,7 @@ devDependencies:
   '@babel/eslint-parser': 7.16.5_eslint@7.32.0
   '@commitlint/cli': 14.1.0
   '@commitlint/config-conventional': 14.1.0
-  '@release-it/conventional-changelog': 3.3.0_release-it@14.12.1
+  '@release-it/conventional-changelog': 3.3.0_release-it@14.12.3
   '@vue/babel-helper-vue-jsx-merge-props': 1.2.1
   '@vue/babel-preset-jsx': 1.2.4
   '@vue/cli-plugin-babel': 4.5.15_4c1e5ebbf041a85328f9984e4ede8f8a
@@ -53,7 +53,7 @@ devDependencies:
   eslint-plugin-vue: 6.2.2_eslint@7.32.0
   husky: 7.0.4
   lint-staged: 11.2.6
-  release-it: 14.12.1
+  release-it: 14.12.3
   vue-template-compiler: 2.6.14
 
 packages:
@@ -90,7 +90,7 @@ packages:
       '@babel/traverse': 7.15.4
       '@babel/types': 7.15.6
       convert-source-map: 1.8.0
-      debug: 4.3.2
+      debug: 4.3.3
       gensync: 1.0.0-beta.2
       json5: 2.2.0
       semver: 6.3.0
@@ -1779,7 +1779,7 @@ packages:
       '@octokit/openapi-types': 11.2.0
     dev: true
 
-  /@release-it/conventional-changelog/3.3.0_release-it@14.12.1:
+  /@release-it/conventional-changelog/3.3.0_release-it@14.12.3:
     resolution: {integrity: sha512-pchCHf+wNpn15oj2hau4gisFKQat/01JuTzAwlGsQE83ZUBknU4dRlPA3xf5F5f3K70VVTQ3lx4/lgQvR+zxww==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -1789,7 +1789,7 @@ packages:
       conventional-changelog: 3.1.24
       conventional-recommended-bump: 6.1.0
       prepend-file: 2.0.0
-      release-it: 14.12.1
+      release-it: 14.12.3
     dev: true
 
   /@sindresorhus/is/0.14.0:
@@ -10653,8 +10653,8 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /release-it/14.12.1:
-    resolution: {integrity: sha512-dYPGZ7F/kfIWzsGlzNCL6PiWfPoaVUILcmqQm80kgYhI/b9RW3k6DVqE0nqI4fHxRT3fMeKWWvS0jdQmFDKn3Q==}
+  /release-it/14.12.3:
+    resolution: {integrity: sha512-qek7ml9WaxpXSjLpU4UGCF9nWpDgOODL1gZTuydafs1HdQPAeYOd2od8I8lUL4NlEKW2TirDhH4aFTVIpP3/cQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -10681,7 +10681,7 @@ packages:
       os-name: 4.0.1
       parse-json: 5.2.0
       semver: 7.3.5
-      shelljs: 0.8.4
+      shelljs: 0.8.5
       update-notifier: 5.1.0
       url-join: 4.0.1
       uuid: 8.3.2
@@ -11166,8 +11166,8 @@ packages:
     resolution: {integrity: sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==}
     dev: true
 
-  /shelljs/0.8.4:
-    resolution: {integrity: sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==}
+  /shelljs/0.8.5:
+    resolution: {integrity: sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==}
     engines: {node: '>=4'}
     hasBin: true
     dependencies:
