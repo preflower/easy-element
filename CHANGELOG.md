@@ -1,3 +1,11 @@
+## [0.5.1](https://github.com/preflower/easy-element/compare/v0.5.0...v0.5.1) (2022-01-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency core-js to ^3.20.3 ([22fd2fe](https://github.com/preflower/easy-element/commit/22fd2feea39b2f46e2aca0fb376621f5ddc1397d))
+* export on demand failed ([d662c10](https://github.com/preflower/easy-element/commit/d662c10891bf37f10de81476c11216479cb2d3e8))
+
 # [0.5.0](https://github.com/preflower/easy-element/compare/v0.4.2...v0.5.0) (2022-01-05)
 
 
