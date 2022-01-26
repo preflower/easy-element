@@ -30,9 +30,14 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
 
-export default {
-  install,
+export {
   Form,
   Table,
-  Select
+  Select,
+  Radio,
+  Checkbox
+}
+
+export default {
+  install
 }
