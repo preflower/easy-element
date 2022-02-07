@@ -18,7 +18,7 @@
     "vue": "^2.6.14"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.16.5",
+    "@babel/eslint-parser": "^7.17.0",
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
     "@release-it/conventional-changelog": "^3.3.0",
