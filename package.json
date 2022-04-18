@@ -21,7 +21,7 @@
     "@babel/eslint-parser": "^7.17.0",
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
-    "@release-it/conventional-changelog": "^3.3.0",
+    "@release-it/conventional-changelog": "^4.3.0",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
     "@vue/babel-preset-jsx": "^1.2.4",
     "@vue/cli-plugin-babel": "~4.5.17",
