@@ -13,7 +13,7 @@
   "unpkg": "dist/easy-element.umd.min.js",
   "jsdelivr": "dist/easy-element.umd.min.js",
   "dependencies": {
-    "core-js": "^3.22.8",
+    "core-js": "^3.23.3",
     "element-ui": "^2.15.9",
     "vue": "^2.6.14"
   },
