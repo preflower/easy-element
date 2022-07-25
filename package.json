@@ -15,7 +15,7 @@
   "dependencies": {
     "core-js": "^3.23.5",
     "element-ui": "^2.15.9",
-    "vue": "^2.7.8"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.9",
