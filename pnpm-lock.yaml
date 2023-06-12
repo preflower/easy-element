@@ -14,7 +14,7 @@ specifiers:
   '@vue/eslint-config-standard': ^6.1.0
   '@vue/test-utils': ^1.3.6
   core-js: ^3.23.5
-  element-ui: ^2.15.9
+  element-ui: ^2.15.13
   eslint: ^7.32.0
   eslint-plugin-import: ^2.26.0
   eslint-plugin-node: ^11.1.0
@@ -29,7 +29,7 @@ specifiers:
 
 dependencies:
   core-js: 3.23.5
-  element-ui: 2.15.9_vue@2.7.8
+  element-ui: 2.15.13_vue@2.7.8
   vue: 2.7.8
 
 devDependencies:
@@ -5753,8 +5753,8 @@ packages:
     resolution: {integrity: sha512-ZzkDcdzePeF4dhoGZQT77V2CyJOpwfTZEOg4h0x6R/jQhGt/rIRpbRyVreWLtD7B/WsVxo91URm2WxMKR9JQZA==}
     dev: true
 
-  /element-ui/2.15.9_vue@2.7.8:
-    resolution: {integrity: sha512-dx45nQLt4Hn87/Z9eRr3ex6KFZbxlFAwEU3QoW3wA5EsYftvHTyL9Pq7VnXXD7hu1Eiaup2jcs6kp+/VSFmXuA==}
+  /element-ui/2.15.13_vue@2.7.8:
+    resolution: {integrity: sha512-LJoatEYX6WV74FqXBss8Xfho9fh9rjDSzrDrTyREdGb1h1R3uRvmLh5jqp2JU137aj4/BgqA3K06RQpQBX33Bg==}
     peerDependencies:
       vue: ^2.5.17
     dependencies:
