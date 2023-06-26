@@ -5,7 +5,7 @@ specifiers:
   '@commitlint/cli': ^17.6.6
   '@commitlint/config-conventional': ^17.6.6
   '@release-it/conventional-changelog': ^3.3.0
-  '@vue/babel-helper-vue-jsx-merge-props': ^1.2.1
+  '@vue/babel-helper-vue-jsx-merge-props': ^1.4.0
   '@vue/babel-preset-jsx': ^1.3.1
   '@vue/cli-plugin-babel': ~4.5.19
   '@vue/cli-plugin-eslint': ~4.5.19
@@ -37,7 +37,7 @@ devDependencies:
   '@commitlint/cli': 17.6.6
   '@commitlint/config-conventional': 17.6.6
   '@release-it/conventional-changelog': 3.3.0_release-it@14.14.3
-  '@vue/babel-helper-vue-jsx-merge-props': 1.2.1
+  '@vue/babel-helper-vue-jsx-merge-props': 1.4.0
   '@vue/babel-preset-jsx': 1.3.1_vue@2.7.14
   '@vue/cli-plugin-babel': 4.5.19_2dacb0cea8cfbd89239ebc716832e7d4
   '@vue/cli-plugin-eslint': 4.5.19_3e0eca1407b8adafc6112ae2a1127e9b
@@ -2138,8 +2138,8 @@ packages:
       '@types/yargs-parser': 20.2.1
     dev: true
 
-  /@vue/babel-helper-vue-jsx-merge-props/1.2.1:
-    resolution: {integrity: sha512-QOi5OW45e2R20VygMSNhyQHvpdUwQZqGPc748JLGCYEy+yp8fNFNdbNIGAgZmi9e+2JHPd6i6idRuqivyicIkA==}
+  /@vue/babel-helper-vue-jsx-merge-props/1.4.0:
+    resolution: {integrity: sha512-JkqXfCkUDp4PIlFdDQ0TdXoIejMtTHP67/pvxlgeY+u5k3LEdKuWZ3LK6xkxo52uDoABIVyRwqVkfLQJhk7VBA==}
     dev: true
 
   /@vue/babel-helper-vue-transform-on/1.0.2:
@@ -2170,7 +2170,7 @@ packages:
     dependencies:
       '@babel/helper-module-imports': 7.15.4
       '@babel/plugin-syntax-jsx': 7.14.5
-      '@vue/babel-helper-vue-jsx-merge-props': 1.2.1
+      '@vue/babel-helper-vue-jsx-merge-props': 1.4.0
       html-tags: 2.0.0
       lodash.kebabcase: 4.1.1
       svg-tags: 1.0.0
@@ -2184,7 +2184,7 @@ packages:
       '@babel/core': 7.15.5
       '@babel/helper-module-imports': 7.15.4
       '@babel/plugin-syntax-jsx': 7.14.5_@babel+core@7.15.5
-      '@vue/babel-helper-vue-jsx-merge-props': 1.2.1
+      '@vue/babel-helper-vue-jsx-merge-props': 1.4.0
       html-tags: 2.0.0
       lodash.kebabcase: 4.1.1
       svg-tags: 1.0.0
@@ -2231,7 +2231,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.15.5
-      '@vue/babel-helper-vue-jsx-merge-props': 1.2.1
+      '@vue/babel-helper-vue-jsx-merge-props': 1.4.0
       '@vue/babel-plugin-transform-vue-jsx': 1.2.1_@babel+core@7.15.5
       '@vue/babel-sugar-composition-api-inject-h': 1.3.0_@babel+core@7.15.5
       '@vue/babel-sugar-composition-api-render-instance': 1.3.0_@babel+core@7.15.5
@@ -2251,7 +2251,7 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@vue/babel-helper-vue-jsx-merge-props': 1.2.1
+      '@vue/babel-helper-vue-jsx-merge-props': 1.4.0
       '@vue/babel-plugin-transform-vue-jsx': 1.2.1
       '@vue/babel-sugar-composition-api-inject-h': 1.3.0
       '@vue/babel-sugar-composition-api-render-instance': 1.3.0
@@ -2336,7 +2336,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/plugin-syntax-jsx': 7.14.5
-      '@vue/babel-helper-vue-jsx-merge-props': 1.2.1
+      '@vue/babel-helper-vue-jsx-merge-props': 1.4.0
       '@vue/babel-plugin-transform-vue-jsx': 1.2.1
       camelcase: 5.3.1
       html-tags: 2.0.0
@@ -2350,7 +2350,7 @@ packages:
     dependencies:
       '@babel/core': 7.15.5
       '@babel/plugin-syntax-jsx': 7.14.5_@babel+core@7.15.5
-      '@vue/babel-helper-vue-jsx-merge-props': 1.2.1
+      '@vue/babel-helper-vue-jsx-merge-props': 1.4.0
       '@vue/babel-plugin-transform-vue-jsx': 1.2.1_@babel+core@7.15.5
       camelcase: 5.3.1
       html-tags: 2.0.0
