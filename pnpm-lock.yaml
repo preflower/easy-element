@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@babel/eslint-parser': ^7.22.7
+  '@babel/eslint-parser': ^7.22.9
   '@commitlint/cli': ^17.6.6
   '@commitlint/config-conventional': ^17.6.6
   '@release-it/conventional-changelog': ^3.3.0
@@ -33,7 +33,7 @@ dependencies:
   vue: 2.7.14
 
 devDependencies:
-  '@babel/eslint-parser': 7.22.7_eslint@7.32.0
+  '@babel/eslint-parser': 7.22.9_eslint@7.32.0
   '@commitlint/cli': 17.6.6
   '@commitlint/config-conventional': 17.6.6
   '@release-it/conventional-changelog': 3.3.0_release-it@14.14.3
@@ -102,23 +102,23 @@ packages:
       debug: 4.3.4
       gensync: 1.0.0-beta.2
       json5: 2.2.0
-      semver: 6.3.0
+      semver: 6.3.1
       source-map: 0.5.7
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@babel/eslint-parser/7.22.7_eslint@7.32.0:
-    resolution: {integrity: sha512-LH6HJqjOyu/Qtp7LuSycZXK/CYXQ4ohdkliEaL1QTdtOXVdOVpTBKVxAo/+eeyt+x/2SRzB+zUPduVl+xiEvdg==}
+  /@babel/eslint-parser/7.22.9_eslint@7.32.0:
+    resolution: {integrity: sha512-xdMkt39/nviO/4vpVdrEYPwXCsYIXSSAr6mC7WQsNIlGnuxKyKE7GZjalcnbSWiC4OXGNNN3UQPeHfjSC6sTDA==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': '>=7.11.0'
       eslint: ^7.5.0 || ^8.0.0
     dependencies:
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
-      '@nicolo-ribaudo/semver-v6': 6.3.3
       eslint: 7.32.0
       eslint-visitor-keys: 2.1.0
+      semver: 6.3.1
     dev: true
 
   /@babel/generator/7.15.4:
@@ -155,7 +155,7 @@ packages:
       '@babel/core': 7.15.5
       '@babel/helper-validator-option': 7.14.5
       browserslist: 4.17.1
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /@babel/helper-create-class-features-plugin/7.15.4_@babel+core@7.15.5:
@@ -199,7 +199,7 @@ packages:
       debug: 4.3.4
       lodash.debounce: 4.0.8
       resolve: 1.22.2
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1033,7 +1033,7 @@ packages:
       babel-plugin-polyfill-corejs2: 0.2.2_@babel+core@7.15.5
       babel-plugin-polyfill-corejs3: 0.2.5_@babel+core@7.15.5
       babel-plugin-polyfill-regenerator: 0.2.2_@babel+core@7.15.5
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1189,7 +1189,7 @@ packages:
       babel-plugin-polyfill-corejs3: 0.2.5_@babel+core@7.15.5
       babel-plugin-polyfill-regenerator: 0.2.2_@babel+core@7.15.5
       core-js-compat: 3.18.1
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1711,11 +1711,6 @@ packages:
       eslint-scope: 5.1.1
     dev: true
 
-  /@nicolo-ribaudo/semver-v6/6.3.3:
-    resolution: {integrity: sha512-3Yc1fUTs69MG/uZbJlLSI3JISMn2UV2rg+1D/vROUqZyh3l6iYHCs7GMp+M40ZD7yOdDbYjJcU1oTJhrc+dGKg==}
-    hasBin: true
-    dev: true
-
   /@node-ipc/js-queue/2.0.3:
     resolution: {integrity: sha512-fL1wpr8hhD5gT2dA1qifeVaoDFlQR5es8tFuKqjHX+kdOtdNHnxkVZbtIrR2rxnMFvehkjaZRNV2H/gPXlb0hw==}
     engines: {node: '>=1.0.0'}
@@ -2220,7 +2215,7 @@ packages:
       babel-plugin-dynamic-import-node: 2.3.3
       core-js: 3.31.1
       core-js-compat: 3.18.1
-      semver: 6.3.0
+      semver: 6.3.1
       vue: 2.7.14
     transitivePeerDependencies:
       - supports-color
@@ -2636,7 +2631,7 @@ packages:
       ora: 3.4.0
       read-pkg: 5.2.0
       request: 2.88.2
-      semver: 6.3.0
+      semver: 6.3.1
       strip-ansi: 6.0.1
     dev: true
 
@@ -3487,7 +3482,7 @@ packages:
       '@babel/compat-data': 7.15.0
       '@babel/core': 7.15.5
       '@babel/helper-define-polyfill-provider': 0.2.3_@babel+core@7.15.5
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4824,7 +4819,7 @@ packages:
       json-stringify-safe: 5.0.1
       lodash: 4.17.21
       meow: 8.1.2
-      semver: 6.3.0
+      semver: 6.3.1
       split: 1.0.1
       through2: 4.0.2
     dev: true
@@ -5115,7 +5110,7 @@ packages:
       postcss-modules-values: 3.0.0
       postcss-value-parser: 4.1.0
       schema-utils: 2.7.1
-      semver: 6.3.0
+      semver: 6.3.1
       webpack: 4.46.0
     dev: true
 
@@ -7176,7 +7171,7 @@ packages:
     hasBin: true
     dependencies:
       meow: 8.1.2
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /git-up/4.0.5:
@@ -8459,7 +8454,7 @@ packages:
       '@babel/traverse': 7.15.4
       '@babel/types': 7.15.6
       istanbul-lib-coverage: 2.0.5
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8863,7 +8858,7 @@ packages:
       mkdirp: 0.5.5
       natural-compare: 1.4.0
       pretty-format: 24.9.0
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -9540,7 +9535,7 @@ packages:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
     dependencies:
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /make-error/1.3.6:
@@ -10534,7 +10529,7 @@ packages:
       got: 9.6.0
       registry-auth-token: 4.2.1
       registry-url: 5.1.0
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /pako/1.0.11:
@@ -12081,7 +12076,7 @@ packages:
     resolution: {integrity: sha512-GX0Ix/CJcHyB8c4ykpHGIAvLyOwOobtM/8d+TQkAd81/bEjgPHrfba41Vpesr7jX/t8Uh+R3EX9eAS5be+jQYg==}
     engines: {node: '>=8'}
     dependencies:
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /semver/5.7.1:
@@ -12091,6 +12086,11 @@ packages:
 
   /semver/6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
+    hasBin: true
+    dev: true
+
+  /semver/6.3.1:
+    resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
     dev: true
 
@@ -13657,7 +13657,7 @@ packages:
       espree: 6.2.1
       esquery: 1.4.0
       lodash: 4.17.21
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -13957,7 +13957,7 @@ packages:
       portfinder: 1.0.28_supports-color@6.1.0
       schema-utils: 1.0.0
       selfsigned: 1.10.11
-      semver: 6.3.0
+      semver: 6.3.1
       serve-index: 1.9.1_supports-color@6.1.0
       sockjs: 0.3.21
       sockjs-client: 1.5.2_supports-color@6.1.0
