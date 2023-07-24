@@ -19,8 +19,8 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.9",
-    "@commitlint/cli": "^17.6.6",
-    "@commitlint/config-conventional": "^17.6.6",
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
     "@release-it/conventional-changelog": "^3.3.0",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.4.0",
     "@vue/babel-preset-jsx": "^1.4.0",
