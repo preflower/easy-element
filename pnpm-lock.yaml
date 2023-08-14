@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@babel/eslint-parser': ^7.22.9
+  '@babel/eslint-parser': ^7.22.10
   '@commitlint/cli': ^17.6.7
   '@commitlint/config-conventional': ^17.6.7
   '@release-it/conventional-changelog': ^3.3.0
@@ -33,7 +33,7 @@ dependencies:
   vue: 2.7.14
 
 devDependencies:
-  '@babel/eslint-parser': 7.22.9_eslint@7.32.0
+  '@babel/eslint-parser': 7.22.10_eslint@7.32.0
   '@commitlint/cli': 17.6.7
   '@commitlint/config-conventional': 17.6.7
   '@release-it/conventional-changelog': 3.3.0_release-it@14.14.3
@@ -108,11 +108,11 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/eslint-parser/7.22.9_eslint@7.32.0:
-    resolution: {integrity: sha512-xdMkt39/nviO/4vpVdrEYPwXCsYIXSSAr6mC7WQsNIlGnuxKyKE7GZjalcnbSWiC4OXGNNN3UQPeHfjSC6sTDA==}
+  /@babel/eslint-parser/7.22.10_eslint@7.32.0:
+    resolution: {integrity: sha512-0J8DNPRXQRLeR9rPaUMM3fA+RbixjnVLe/MRMYCkp3hzgsSuxCHQ8NN8xQG1wIHKJ4a1DTROTvFJdW+B5/eOsg==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
-      '@babel/core': '>=7.11.0'
+      '@babel/core': ^7.11.0
       eslint: ^7.5.0 || ^8.0.0
     dependencies:
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
