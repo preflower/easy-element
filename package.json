@@ -15,7 +15,7 @@
   "dependencies": {
     "core-js": "^3.33.1",
     "element-ui": "^2.15.14",
-    "vue": "^2.7.14"
+    "vue": "^2.7.15"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.15",
@@ -39,7 +39,7 @@
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
     "release-it": "^14.14.3",
-    "vue-template-compiler": "^2.7.14"
+    "vue-template-compiler": "^2.7.15"
   },
   "commitlint": {
     "extends": [
